@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$mainBlack: #222;
+$mainWhite: #fff;
+$mainGrey: #ececec;
+$mainBlue: #3b5998;
+$mainYellow: #ffbf00;
+$mainGreen: #82b340;
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
